@@ -12,6 +12,8 @@
         {   
             Console.Clear();
 
+            Console.WriteLine("");
+
             Console.WriteLine("Bem vindo ao nosso sistema!");
             Console.WriteLine("Temos diversos códigos para você testar.");
             
@@ -26,6 +28,8 @@
             Console.WriteLine("5 - Inversão de string.");
             Console.WriteLine("6 - Calculadora simples.");
             Console.WriteLine("7 - Validador de CPF.");
+            Console.WriteLine("8 - Contador de palavras.");
+            Console.WriteLine("9 - Soma dos digítos de um número.");
 
             Console.WriteLine("----------------------------------------");
 
@@ -66,8 +70,15 @@
                 case 7:
                     ValidaCPF.MetodoCPFMain();
                     break;
+                
+                case 8:
+                    ContaPalavras.ContaPalavrasMain();
+                    break;
+
+                case 9:
+                    SomaDigitos.SomaDigitosMain();
+                    break;
             }
-            
         }
 
         public static void Sair()
