@@ -24,6 +24,8 @@
             Console.WriteLine("3 - Verifica número primo.");
             Console.WriteLine("4 - Conversão Celcius para Fahrenheit.");
             Console.WriteLine("5 - Inversão de string.");
+            Console.WriteLine("6 - Calculadora simples.");
+            Console.WriteLine("7 - Validador de CPF.");
 
             Console.WriteLine("----------------------------------------");
 
@@ -34,28 +36,36 @@
             switch (opcao)
             {
                 case 0:
-                Sair();
-                break;
+                    Sair();
+                    break;
 
                 case 1:
-                Soma.MetodoSoma();
-                break;
+                    Soma.MetodoSoma();
+                    break;
 
                 case 2:
-                Media.MetodoMedia();
-                break;
+                    Media.MetodoMedia();
+                    break;
 
                 case 3:
-                Primo.PrimoMetodo();
-                break;
+                    Primo.PrimoMetodo();
+                    break;
 
                 case 4:
-                Temperatura.MetodoTemperatura();
-                break;
+                    Temperatura.MetodoTemperatura();
+                    break;
 
                 case 5:
-                StringReversa.MetodoMain();
-                break;
+                    StringReversa.MetodoMain();
+                    break;
+
+                case 6:
+                    Calculadora.MetodoMain();
+                    break;
+
+                case 7:
+                    ValidaCPF.MetodoCPFMain();
+                    break;
             }
             
         }
