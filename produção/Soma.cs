@@ -21,7 +21,7 @@ namespace Csharp
             Console.WriteLine($"A soma desses números é: {soma}");
             Console.ReadKey();
             
-            Program.Menu();
+            Program.MenuDeProducao();
         }
     }
 }

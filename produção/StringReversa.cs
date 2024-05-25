@@ -14,7 +14,7 @@ namespace Csharp
             Console.WriteLine($"O texto invertido fica assim: {textoReverso}");
 
             Console.ReadKey();
-            Program.Menu();
+            Program.MenuDeProducao();
         }
 
         public static string MetodoReverso(string texto)

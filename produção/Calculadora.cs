@@ -23,28 +23,28 @@ namespace Csharp
                     resultado = MetodoSoma(num1, num2);
                     Console.Write($"O resultado de sua operação é: {resultado}");
                     Console.ReadKey();
-                    Program.Menu();
+                    Program.MenuDeProducao();
                     break;
 
                 case '-':
                     resultado = MetodoSubtracao(num1, num2);
                     Console.Write($"O resultado de sua operação é: {resultado}");
                     Console.ReadKey();
-                    Program.Menu();
+                    Program.MenuDeProducao();
                     break;
 
                 case '*':
                     resultado = MetodoMultiplicacao(num1, num2);
                     Console.Write($"O resultado de sua operação é: {resultado}");
                     Console.ReadKey();
-                    Program.Menu();
+                    Program.MenuDeProducao();
                     break;
 
                 case '/':
                     resultado = MetodoDivisao(num1, num2);
                     Console.Write($"O resultado de sua operação é: {resultado}");
                     Console.ReadKey();
-                    Program.Menu();
+                    Program.MenuDeProducao();
                     break;
                     
                 default:

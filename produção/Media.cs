@@ -29,7 +29,7 @@ namespace Csharp
             Console.WriteLine($"A média é: {media}");
             Console.ReadKey();
 
-            Program.Menu();
+            Program.MenuDeProducao();
         }
     }
 }

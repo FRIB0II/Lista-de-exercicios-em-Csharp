@@ -14,7 +14,7 @@ namespace Csharp
             Console.Write($"A temperatura em Fahrenheit é: {temperaturaEmFahrenheit}" + "°");
             
             Console.ReadKey();
-            Program.Menu();
+            Program.MenuDeProducao();
         }
     }
 

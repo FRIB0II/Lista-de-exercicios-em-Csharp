@@ -16,7 +16,7 @@ namespace Csharp
             Console.Write($"A soma dos dígitos é: {resultado}.");
             Console.WriteLine("");
             Console.ReadKey();
-            Program.Menu();
+            Program.MenuDeProducao();
         }
 
         public static int SomaDigitosMetodo(string num)

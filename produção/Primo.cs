@@ -25,7 +25,7 @@ namespace Csharp
                 Console.WriteLine("Não é primo.");
 
             Console.ReadKey();
-            Program.Menu();
+            Program.MenuDeProducao();
         }
     }
 }

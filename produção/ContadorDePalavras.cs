@@ -16,7 +16,7 @@ namespace Csharp
             Console.WriteLine("");
 
             Console.ReadKey();
-            Program.Menu();
+            Program.MenuDeProducao();
         }
 
         public static string MetodoContador(string frase)
