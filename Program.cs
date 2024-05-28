@@ -35,6 +35,7 @@ namespace Csharp
             Console.WriteLine("9 - Contador de palavras.");
             Console.WriteLine("10 - Soma dos digítos de um número.");
             Console.WriteLine("11 - Ordernação de array.");
+            Console.WriteLine("12 - Calcula a área de um triângulo.");
             Console.WriteLine("----------------------------------------");
 
             Console.WriteLine("");
@@ -44,51 +45,68 @@ namespace Csharp
             switch (opcao)
             {
                 case 0:
+                    Console.Clear();
                     Sair();
                     break;
                 
                 case 1:
+                    Console.Clear();
                     MenuDeTestes();
                     break;
 
                 case 2:
+                    Console.Clear();
                     Soma.MetodoSoma();
                     break;
 
                 case 3:
+                    Console.Clear();
                     Media.MetodoMedia();
                     break;
 
                 case 4:
+                    Console.Clear();
                     Primo.PrimoMetodo();
                     break;
 
                 case 5:
+                    Console.Clear();
                     Temperatura.MetodoTemperatura();
                     break;
 
                 case 6:
+                    Console.Clear();
                     StringReversa.MetodoMain();
                     break;
 
                 case 7:
+                    Console.Clear();
                     Calculadora.MetodoMain();
                     break;
 
                 case 8:
+                    Console.Clear();
                     ValidaCPF.MetodoCPFMain();
                     break;
                 
                 case 9:
+                    Console.Clear();
                     ContaPalavras.ContaPalavrasMain();
                     break;
 
                 case 10:
+                    Console.Clear();
                     SomaDigitos.SomaDigitosMain();
                     break;
 
                 case 11:
+                    Console.Clear();
                     OrdenaArray.OrdenaArrayMain();
+                    break;
+                
+                case 12:
+                    Console.Clear();
+                    AreaTriangulo.AreaTrianguloMain();
                     break;
             }
         }
